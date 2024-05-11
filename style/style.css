@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    
+    
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+html{
+    background-image: url(../images/4.jpg);                                    /*изображение на заднем плане страницы*/
+    background-size: cover;
+    background-repeat: no-repeat;}
+/* h1{
+    text-align: center;
+    font-family: "Zeyada", cursive;
+    font-size: 60px;
+}
+.container2{
+    width: 400px;
+} */
+.container ul{
+    list-style-type: none;
+    background-color: rgb(78, 77, 77);   
+    padding: 0px;
+    margin: 0px; 
+    overflow: hidden;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-family: "Zeyada", cursive;
+}
+.container a:hover{
+    background-color: rgb(43, 43, 43);
+}
+.container li{
+    float: right;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    
+  }
+  
+  .child {
+    text-align: center;
+    border-radius: 30px;  
+    color: white;
+    font-family: "Zeyada", cursive;
+    font-size: 60px;
+    background-color: rgb(105, 105, 105, 0.5);
+    backdrop-filter: blur(5px); 
+    width: 400px;
+  }
+  .child2 {
+    text-align: center;
+    border-radius: 30px;  
+    color: white;
+    font-family: "Zeyada", cursive;
+    font-size: 20px;
+    background-color: rgb(105, 105, 105, 0.5);
+    backdrop-filter: blur(5px); 
+    width: 600px;
+  }
